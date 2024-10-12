@@ -1,27 +1,27 @@
 {
   "proxies": {
-
+    "http": "socks4://88.24.38.156:8080",
+    "https": "socks4://88.24.38.156:8080"
   },
   "headers": {
-
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
   },
-
   "OpenAI_API_KEY": "",
   "OpenAI_Model": "",
-  "resume_path": "full local path to your resume in PDF format",
-
+  "resume_path": "C:/Users/dwpic/Documents/Career Transition Files/Resume/David Pickei Resume.pdf",
   "search_queries": [    
-    {"keywords": "Python developer", "location": "Los Angeles", "f_WT": ""},
-    {"keywords": "Python developer", "location": "USA", "f_WT": "2"}
-
+    {"keywords": "Data Analyst", "location": "New York", "f_WT": ""},
+    {"keywords": "Machine Learning Engineer", "location": "USA", "f_WT": "2"}
   ],
   "desc_words": [
-    "agriculture", "farm", "food safety", "manufacture", "manufacturing", "Bilingual", "chemistry", "FDA", "ICH Guideline", "21 CFR 210",
-    "biological sciences", "clinical research", "clinical trials", "drug safety", "ISO 9001", "ISO9001", "Life Sciences", "Biotech", "safety standards", "gt.school", "degree in accounting", "degree in Finance", "ISQM", "ISQM1",
-    "QA/QC", "Electrical Engineering", "IS09001"
+    "agriculture", "farm", "food safety", "manufacture", "manufacturing", "Bilingual", "chemistry", 
+    "FDA", "ICH Guideline", "21 CFR 210", "biological sciences", "clinical research", "clinical trials", 
+    "drug safety", "ISO 9001", "ISO9001", "Life Sciences", "Biotech", "safety standards", "gt.school", 
+    "degree in accounting", "degree in Finance", "ISQM", "ISQM1", "QA/QC", "Electrical Engineering", 
+    "IS09001"
   ],
   "title_exclude": ["frontend", "fron end", "game"],
-  "title_include": ["python", "developer", "backend", "BE", "engineer"],
+  "title_include": ["python", "data", "analyst", "developer", "backend", "BE", "engineer", "machine learning"],
   "company_exclude": ["ClickJobs.io"],
   "languages": ["en"],
   "timespan": "r84600",
@@ -32,5 +32,4 @@
   "rounds": 1,
   "days_to_scrape": 10,
   "app_table": "jobs"
-  }
-  
+}

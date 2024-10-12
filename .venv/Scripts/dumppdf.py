@@ -1,4 +1,4 @@
-#!c:\Users\dwpic\Documents\Coding\Projects\linkedinscraper\linkedinscraper\.venv\Scripts\python.exe
+#!C:\Users\dwpic\Documents\Coding\Projects\linkedinscraper\.venv\Scripts\python.exe
 """Extract pdf structure in XML format"""
 import logging
 import os.path
